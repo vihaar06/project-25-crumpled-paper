@@ -18,7 +18,7 @@ function setup() {
 	
 	groundObject = new ground(width/2,670,width,20);
 	dustbinObj = new dustbin(1200,650);
-    paperobj = new paper(300,300);
+    Paperobj = new Paper(300,300);
 	Engine.run(engine);
   
 }
@@ -31,7 +31,7 @@ function draw() {
 
   groundObject.display();
   dustbinObj.display();
-  paperobj.display();
+  Paperobj.display();
 
 }
 
